@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>15 Años Alexia</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom right, #fce4ec, #f8bbd0);
+      color: #4a148c;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #ec407a;
+      color: white;
+      padding: 2rem;
+      font-size: 2rem;
+    }
+    h2 {
+      margin-top: 2rem;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 2rem;
+    }
+    .gallery-item {
+      margin: 1rem;
+      max-width: 300px;
+    }
+    img, video {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    footer {
+      background: #f48fb1;
+      color: white;
+      padding: 1rem;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>🎉 15 Años Alexia 🎉</header>
+
+  <h2>📸 Fotos</h2>
+  <div class="gallery" id="photo-gallery">
+    <div class="gallery-item"><img src="fotos/foto1.jpg" alt="Foto 1"></div>
+    <div class="gallery-item"><img src="fotos/foto2.jpg" alt="Foto 2"></div>
+    <!-- Agrega más imágenes aquí -->
+  </div>
+
+  <h2>🎥 Videos</h2>
+  <div class="gallery" id="video-gallery">
+    <div class="gallery-item">
+      <video controls>
+        <source src="videos/video1.mp4" type="video/mp4">
+        Tu navegador no soporta el video.
+      </video>
+    </div>
+    <!-- Agrega más videos aquí -->
+  </div>
+
+  <footer>Con mucho cariño para todos los que acompañan a Alexia en este día especial 💖</footer>
+
+</body>
+</html>
